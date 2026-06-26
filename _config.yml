@@ -1,0 +1,32 @@
+# Configuración del sitio
+title: "Analítica de Datos - Saber PRO"
+description: "Un viaje completo desde los datos brutos hasta el conocimiento"
+author: "Juan Pablo Lopez"
+github_username: NaujAlKamel
+
+# Tema (elige uno)
+theme: minima
+# O se puede usar: remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+
+# Configuración de relativa_links
+relative_links:
+  enabled: true
+  collections: true
+
+# Otras configuraciones
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
