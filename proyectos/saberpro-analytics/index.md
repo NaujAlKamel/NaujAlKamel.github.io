@@ -1725,6 +1725,18 @@ _Lo más positivo ha sido ver cómo un conjunto de datos aparentemente caótico 
 _En resumen, esta colaboración ha sido un recordatorio de que el mejor análisis de datos no surge de una máquina ni de una persona sola, sino de la sinergia entre ambas. Y que el "vibecoding", lejos de ser una moda, es una nueva forma de hacer ciencia y tecnología: más humana, más iterativa y, a menudo, más creativa._
 
 
+## 8.8 Código y recursos
+
+Todo el código utilizado en este proyecto está disponible en el repositorio de GitHub:
+
+- **[ICFES-1_SabPRO2025_Test-Enhance.ipynb](https://github.com/NaujAlKamel/NaujAlKamel.github.io/blob/main/scripts/ICFES-1_SabPRO2025_Test-Enhance.ipynb)** - Pipeline completo de extracción, limpieza y modelado de datos.
+- **[ICFES-2_SabPRO-Analytics_Testing.ipynb](https://github.com/NaujAlKamel/NaujAlKamel.github.io/blob/main/scripts/02_EDA.ipynb)** - Análisis exploratorio y visualizaciones.
+- **[ICFES-3_SabPRO_ML_Tests.ipynb](https://github.com/NaujAlKamel/NaujAlKamel.github.io/blob/main/scripts/03_ML_Clustering.ipynb)** - Clustering y clasificación supervisada con Random Forest.
+
+Los archivos de datos intermedios (diccionarios, mapas de corrección) se encuentran en la carpeta [`data/`](https://github.com/NaujAlKamel/NaujAlKamel.github.io/tree/main/data).
+
+Para reproducir el proyecto desde cero, sigue los pasos documentados en el Capítulo 2 (Recopilación de datos) y ejecuta los notebooks en orden.
+
 ## **Nota final**
 
 Este capítulo cierra el ciclo narrativo del proyecto. Hemos viajado desde los datos en bruto hasta el conocimiento, pasando por la limpieza, el modelado, el análisis y la predicción. Hemos aprendido sobre educación, sobre datos y sobre nosotros mismos como analistas.
